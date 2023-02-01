@@ -220,14 +220,14 @@ body{
   .how-it-works{
     background-color: #040505;
     padding-bottom: 200px;
-    margin-top: -12%
+    margin-top: -20%
     ;
   }
   
   .header{
     
     margin-bottom: -50px;
-    padding-left: 100px;
+    padding-left: 5%;
   }
   
   .how{
@@ -391,7 +391,7 @@ body{
   
   .black{
     background-color: #040505;
-    margin-top: 20px;
+    margin-top: 15px;
     position: relative;
     z-index: 1;
   }
@@ -409,7 +409,7 @@ body{
   }
   .oak{
     margin-left: 0px;
-    grid-template-columns: 350px 350px 350px
+    grid-template-columns: auto auto auto
   }
   .cer{
    
@@ -417,9 +417,17 @@ body{
   }
   
   .div-valid{
-    display: flex;
-    margin-left: 160px;
-    margin-top: -50px;
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+   
+    margin-left: -200px;
+    margin-top: 20px;
   
   }
   .info{
@@ -453,13 +461,13 @@ body{
   }
   .cos{
     top: -585px;
-    left: 100px;
+    left: 50px;
   
   }
   .ever{
     transform: rotate(50deg);
-    left: -50px;
-    top: -750px;
+    left: 820px;
+    top: -900px;
   }
   
   .f{
@@ -490,7 +498,7 @@ body{
   }
   
   .div-val{
-    margin-top: 200px;
+    margin-top: 250px;
     padding-left: 130px;
   }
   .ab{
@@ -509,6 +517,7 @@ body{
     padding-bottom: 40px;
     position: relative;
     z-index: 1;
+    top: -120px;
   }
   .stride{
     max-height: 3.5rem;
@@ -540,6 +549,7 @@ body{
   
 
   @media screen and (max-width: 1400px) {
+    
     h1{
      font-size: 130px;
     }
@@ -575,10 +585,24 @@ body{
     font-size: 500%;
   }
   .padding-large2{
-    margin-bottom: 30px;
+    margin-bottom: 12px;
+  }
+  .pad-val{
+    margin-top: 200px;
   }
 
-  
+  .div-valid{
+    margin-left: -220px;
+    margin-top: 5px;
+  }
+
+  .div-val {
+    margin-top: 250px;
+    padding-left: 130px;
+}
+.footer{
+  top: -220px;
+}
   
    }
 
@@ -595,6 +619,9 @@ body{
     .home-header_button-wrapper {
       margin-top: -120px;
       margin-left: 730px;
+  }
+  .how-it-works{
+    margin-top: -25%;
   }
   
   
@@ -637,6 +664,20 @@ body{
   .big-number-list_label2{
     font-size: 15px;
   }
+  .pad-val{
+    margin-top: 350px;
+  }
+  .div-valid{
+    margin-left: -220px;
+    margin-top: -100px;
+  }
+  .cos{
+    left: 80px;
+  }
+  .ever{
+    left: 790px;
+  }
+
 
  
    }
@@ -657,6 +698,10 @@ body{
     margin-top: -80px;
     margin-left: 550px;
 }
+.how-it-works{
+  margin-top: -30%;
+}
+
 .home-header-p{
   font-size: 0.5rem;
   top: 150%;
@@ -681,7 +726,9 @@ body{
 .div-pad{
   margin-left: 400px;
 }
-
+.pad-val{
+  margin-top: 400px;
+}
 
 
   }
