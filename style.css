@@ -329,8 +329,6 @@ body{
   }
   .val{
     color: #040505;
-    position: relative;
-    top: -850px;
     font-weight: bold;
     font-size: 80px;
     margin-block-end: 0px;
@@ -425,10 +423,10 @@ body{
     grid-row-gap: 1.5rem;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
+    margin-left: 650px;
+    margin-top: 50px;
    
-    margin-left: -200px;
-    margin-top: 20px;
-  
+
   }
   .info{
     padding-bottom: 0px;
@@ -449,25 +447,27 @@ body{
     background-color: #fff;
     box-shadow: 6px 6px 0 0 #212529;
     padding: 20px;
-    position: relative;
-    top: -660px;
-    left: 350px
+ 
   }
   
   .imp{
     transform: rotate(20deg);
-    top: -751px;
-    left: 300px;
+    position: relative;
+    top: -120px;
+    left: -110px;
   }
   .cos{
-    top: -585px;
-    left: 50px;
+    position: relative;
+    /* top: -585px; */
+    left: -300px;
+    top: 50px;
   
   }
   .ever{
-    transform: rotate(50deg);
-    left: 820px;
-    top: -900px;
+    transform: rotate(45deg);
+    left: 430px;
+    top: -270px;
+    position: relative;
   }
   
   .f{
@@ -505,6 +505,9 @@ body{
     margin-left: -6%;
 
   }
+  .pad-val{
+    margin-top: -700px;
+  }
   
   
   
@@ -517,7 +520,7 @@ body{
     padding-bottom: 40px;
     position: relative;
     z-index: 1;
-    top: -120px;
+    top: 500px;
   }
   .stride{
     max-height: 3.5rem;
@@ -588,20 +591,19 @@ body{
     margin-bottom: 12px;
   }
   .pad-val{
-    margin-top: 200px;
+    margin-top: -700px;
   }
 
   .div-valid{
-    margin-left: -220px;
-    margin-top: 5px;
+    margin-top: 200px;
+    margin-left: 550px;
   }
-
   .div-val {
     margin-top: 250px;
     padding-left: 130px;
 }
 .footer{
-  top: -220px;
+  top: 400px;
 }
   
    }
@@ -665,17 +667,18 @@ body{
     font-size: 15px;
   }
   .pad-val{
-    margin-top: 350px;
+    margin-top: -550px;
   }
   .div-valid{
-    margin-left: -220px;
-    margin-top: -100px;
-  }
-  .cos{
-    left: 80px;
+    margin-top: 50px;
+    margin-left: 450px;
+    
   }
   .ever{
-    left: 790px;
+    left: 400px;
+  }
+  .cos{
+    left: -250px;
   }
 
 
@@ -727,7 +730,7 @@ body{
   margin-left: 400px;
 }
 .pad-val{
-  margin-top: 400px;
+  margin-top: -400px;
 }
 
 
